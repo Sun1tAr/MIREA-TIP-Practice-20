@@ -161,86 +161,53 @@ services:
 
 ### 1. Запуск Auth service
 
-![img.png](img.png)
+![img.png](about/img.png)
 
 ### 2. Запуск Tasks service
 
-![img_1.png](img_1.png)
+![img_1.png](about/img_1.png)
 
 ### 3. Проверка эндпоинта /metrics
 
-![img_2.png](img_2.png)
+![img_2.png](about/img_2.png)
 
 ### 4. Prometheus Targets
 
-![img_3.png](img_3.png)
+![img_3.png](about/img_3.png)
 
 ### 5. Prometheus Graph (http_requests_total)
 
-![img_4.png](img_4.png)
+![img_4.png](about/img_4.png)
 
 ### 6. Генерация нагрузки
 
-**Ожидаемое содержимое скриншота:** Выполнение скрипта generate_load.ps1 с выводом точек и сообщением об успешном завершении.
-
-```
-[PLACEHOLDER: screen_6_load_generation.png]
-*Рисунок 6 — Генерация нагрузки через PowerShell скрипт*
-```
+![img_5.png](about/img_5.png)
 
 ### 7. Grafana Data Source
 
-**Ожидаемое содержимое скриншота:** Настройка Data Source в Grafana с URL http://prometheus:9090 и сообщением "Data source is working".
-
-```
-[PLACEHOLDER: screen_7_grafana_datasource.png]
-*Рисунок 7 — Добавление Prometheus как Data Source в Grafana*
-```
+![img_6.png](about/img_6.png)
 
 ### 8. Grafana Dashboard (RPS график)
 
-**Ожидаемое содержимое скриншота:** График RPS по эндпоинтам в Grafana.
-
-```
-[PLACEHOLDER: screen_8_grafana_rps.png]
-*Рисунок 8 — График RPS в Grafana*
-```
+![img_7.png](about/img_7.png)
 
 ### 9. Grafana Dashboard (Error rate)
 
-**Ожидаемое содержимое скриншота:** График ошибок 4xx/5xx в Grafana.
-
-```
-[PLACEHOLDER: screen_9_grafana_errors.png]
-*Рисунок 9 — График ошибок в Grafana*
-```
+![img_8.png](about/img_8.png)
 
 ### 10. Grafana Dashboard (P95 Latency)
 
-**Ожидаемое содержимое скриншота:** График P95 latency в Grafana.
-
-```
-[PLACEHOLDER: screen_10_grafana_latency.png]
-*Рисунок 10 — График P95 latency в Grafana*
-```
+![img_9.png](about/img_9.png)
 
 ### 11. Полный дашборд Grafana
 
-**Ожидаемое содержимое скриншота:** Полный дашборд со всеми тремя графиками.
 
-```
-[PLACEHOLDER: screen_11_grafana_full.png]
-*Рисунок 11 — Полный дашборд Tasks Service Dashboard*
-```
 
 ### 12. Docker контейнеры
 
 **Ожидаемое содержимое скриншота:** Вывод команды `docker-compose ps` с запущенными контейнерами prometheus и grafana.
 
-```
-[PLACEHOLDER: screen_12_docker_ps.png]
-*Рисунок 12 — Запущенные Docker контейнеры*
-```
+![img_10.png](about/img_10.png)
 
 ---
 
@@ -275,7 +242,7 @@ http_in_flight_requests 0
 
 ---
 
-## Выводы
+## Выводы 
 
 В ходе выполнения практического занятия №20 были достигнуты следующие результаты:
 
